@@ -43,18 +43,16 @@ Yet another crazy custom Magisk by HuskyDG, is always synchronized with official
 
 ## FAQ
 
-### How to switch from current Magisk to Magisk Delta?
+### How to switch from current Magisk to Magisk Delta and and vice versa?
 
 > Some Mediatek devices prevent modify boot partition (or kernel doesn't allow to modify boot image) after booting. When using "Direct Install" option, you might end up with "/dev/xxxx is read-only" error or the installation seems to be successful but actually fails. In this case, please try patching boot image with Magisk app and flash it from Custom Recovery or Fastboot instead. 
 
-1. Unhide Magisk app if hidden (do not uninstall Magisk app)
-2. Install new Magisk app (Magisk delta) and grant root access to it. If Magisk delta cannot get root access after granted, close Magisk delta and re-open it.
-3. Use "Direct install" option in Magisk delta and reboot.
-4. Uninstall old Magisk app.
+The fast way to migrate to Magisk Delta or switch back to official Magisk: Just flash magisk app like a module.
 
-### How to switch back to official Magisk.
+1. Rename `magisk.apk` to `magisk.zip`
+2. Open Magisk app, click "Modules" tab -> "Install from storage" and choose magisk.apk
+3. Reboot your device
 
-Do like when you update Magisk or switch to Magisk Delta: Just reinstall official magisk and use "Direct Install" option. If you don't see this option after grant root access, close and reopen it
 
 ### How to install Magisk into emulator (such as NoxPlayer, LDPlayer, etc...)?
 
