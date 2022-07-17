@@ -1,4 +1,12 @@
-## Magisk 7a6dd2cc-delta by HuskyDG
+## Magisk 4033b5bb-delta by HuskyDG
+
+### What is new?
+
+- Move MagiskHide initialization to boot completed
+- Core-only mode now will disable MagiskHide
+
+
+### Diff from official
 
 - [General] MagiskHide is restored, replace DenyList
 - [Zygisk] Allow MagiskHide to handle isolated process
@@ -13,14 +21,13 @@
 - [General] Add Riru core button
 - [General] Fix Magisk survival script `addon.d` when FBE cannot be decrypted: Change modules directory from `/data/adb/magisk` to `/data/unencrypted/MAGISKBIN` and symlink back
 - [MagiskHide] Only reset sensitive props after boot completed
-- [General] Support system Magisk installation for devices with disabled SeLinux
-- [General] Change modules directory from `/data/adb/modules` to `/data/unencrypted/magisk_modules` and symlink back on FBE so you can manage module from Recovery.
+- [General] Change magisk directory from `/data/adb/modules` to `/data/unencrypted/magisk_modules` and symlink back on FBE so you can manage module from Recovery.
 - [MagiskInit] Inject Magisk services through `exec` option
-- [MagiskHide] Add MagiskHide Dualspace mode to hide Magisk from all apps on dual space
-- [MagiskHide] Add MagiskHide WhiteList mode to hide Magisk from all apps except apps that have been previously granted root access from Magisk
+- [MagiskHide] Introduce MagiskHide Dualspace mode to hide Magisk from all apps on dual space
+- [MagiskHide] Introduce MagiskHide WhiteList mode to hide Magisk from all apps except apps that have been previously granted root access from Magisk
 - [Manager] Show all supported languages in Language settings for Chinese ROM
 - [Modules] Support systemless deleting files or folders for modules. [Learn more about it...](https://huskydg.github.io/blog/delete-file-and-folder-by-magisk-module)
-- [General] Add bootloop protection feature
+- [General] Introduce Anti Zygote loop feature to automatically boot into Core-only mode if zygote fails to start for many times (bootloop)
 
 ### About MagiskHide WhiteList
 
