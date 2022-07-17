@@ -45,7 +45,7 @@ Yet another crazy custom Magisk by HuskyDG, is always synchronized with official
 
 ### How to switch from current Magisk to Magisk Delta and vice versa?
 
-> Some Mediatek devices prevent modify boot partition (or kernel doesn't allow to modify boot image) after booting. When using "Direct Install" option, you might end up with "/dev/xxxx is read-only" error or the installation seems to be successful but actually fails. In this case, please try patching boot image with Magisk app and flash it from Custom Recovery or Fastboot instead. 
+> Some Mediatek devices prevent boot partition from being modified (or kernel doesn't allow to modify boot image) after booting. When directly installing, you might end up with "/dev/xxxx is read-only" error or the installation seems to be successful but actually fails. In this case, please try patching boot image with Magisk app and flash it from Custom Recovery or Fastboot instead. 
 
 The fast way to migrate to Magisk Delta or switch back to official Magisk: Just flash magisk app like a module.
 
