@@ -43,14 +43,14 @@ Yet another crazy custom Magisk by HuskyDG, is always synchronized with official
 
 ## FAQ
 
-### How to switch from current Magisk to Magisk Delta and and vice versa?
+### How to switch from current Magisk to Magisk Delta and vice versa?
 
 > Some Mediatek devices prevent modify boot partition (or kernel doesn't allow to modify boot image) after booting. When using "Direct Install" option, you might end up with "/dev/xxxx is read-only" error or the installation seems to be successful but actually fails. In this case, please try patching boot image with Magisk app and flash it from Custom Recovery or Fastboot instead. 
 
 The fast way to migrate to Magisk Delta or switch back to official Magisk: Just flash magisk app like a module.
 
-1. Rename `magisk.apk` to `magisk.zip`
-2. Open Magisk app, click "Modules" tab -> "Install from storage" and choose magisk.apk
+1. Rename the extension `magisk.apk` to `magisk.zip`
+2. Open Magisk app, click "Modules" tab -> "Install from storage" and choose `magisk.zip`
 3. Reboot your device
 
 
