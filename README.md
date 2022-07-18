@@ -16,13 +16,21 @@ Yet another crazy custom Magisk by HuskyDG, is always synchronized with official
 
 > If you are fine with official Magisk setup, it is recommended to stay. If you choose to use Magisk Delta, make sure you read all FAQs and changelog before using Magisk Delta.
 
-### Stable
+### Stable / Beta
 
 > For most user, Stable build is recommended.
 
-- [Magisk Delta v25.1](https://huskydg.github.io/download/magisk/25.1-delta-2.apk)
+#### Stable
+
+- [Magisk 25.1-delta-2](https://huskydg.github.io/download/magisk/25.1-delta-2.apk)
 - [Source code](https://huskydg.github.io/download/magisk/25.1-delta-2.zip)
 - [Changelog](https://github.com/HuskyDG/magisk-files/blob/main/note_stable.md)
+
+#### Beta
+
+- [Magisk 25.1-delta-3](https://huskydg.github.io/download/magisk/25.1-delta-3.apk)
+- [Source code](https://huskydg.github.io/download/magisk/25.1-delta-3.zip)
+- [Changelog](https://github.com/HuskyDG/magisk-files/blob/main/note_beta.md)
 
 
 ### Canary / Debug
