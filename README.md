@@ -89,7 +89,6 @@ The official Magisk modules repository is dead and no longer maintained. Due to 
 ## Similar fork
 
 - [Fox2Code/Nopgisk](http://github.com/Fox2Code/Nopgisk)
-- [TheHitMan/Cygisk](http://github.com/Cygisk/Cygisk)
 
 ## License
 
