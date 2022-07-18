@@ -1,11 +1,11 @@
-## Magisk 4033b5bb-delta DEBUG by HuskyDG
+## Magisk f74eddef-delta DEBUG by HuskyDG
 
 > The Debug version has a more detailed log than the Canary version
 
 ### What is new?
 
-- Move MagiskHide initialization to boot completed
-- Core-only mode now will disable MagiskHide
+- Update script for Magisk installation to system partition
+- Canary or Debug build now will tell you to update if version name is mismated
 
 
 ### Diff from official

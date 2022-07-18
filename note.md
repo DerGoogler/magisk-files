@@ -1,9 +1,9 @@
-## Magisk 4033b5bb-delta by HuskyDG
+## Magisk f74eddef-delta by HuskyDG
 
 ### What is new?
 
-- Move MagiskHide initialization to boot completed
-- Core-only mode now will disable MagiskHide
+- Update script for Magisk installation to system partition
+- Canary or Debug build now will tell you to update if version name is mismated
 
 
 ### Diff from official
