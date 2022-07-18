@@ -1,26 +1,21 @@
-## Magisk f74eddef-delta DEBUG by HuskyDG
+## Magisk 8c17f54d-delta DEBUG by HuskyDG
 
 > The Debug version has a more detailed log than the Canary version
 
 ### What is new?
 
-- Update script for Magisk installation to system partition
-- Canary or Debug build now will tell you to update if version name is mismatched
+- Do not load custom `sepolicy.rule` of modules in Core-only mode
 
 
 ### Diff from official
 
-- [General] MagiskHide is restored, replace DenyList
-- [Zygisk] Allow MagiskHide to handle isolated process
-- [Zygisk] Clean up preload when hiding with MagiskHide
+- [General] MagiskHide is restored and enabled by default
 - [General] The package name is `io.github.huskydg.magisk`
-- [MagiskHide] Use seperate `hidelist` instead of `denylist`
-- [MagiskHide] MagiskHide is enabled by default
 - [MagiskHide] Hide Google SafetyNet process by default
-- [General] Add option to boot into Core-only mode
-- [General] Support Magisk installation in system partition
-- [General] Add Disable Magisk button
-- [General] Add Riru core button
+- [General] Implement Core-only mode
+- [General] Support installing Magisk into system partition
+- [General] Add button to temporarily disable Magisk
+- [General] Add button to download and install Riru core
 - [General] Fix Magisk survival script `addon.d` when FBE cannot be decrypted: Change modules directory from `/data/adb/magisk` to `/data/unencrypted/MAGISKBIN` and symlink back
 - [MagiskHide] Only reset sensitive props after boot completed
 - [General] Change magisk directory from `/data/adb/modules` to `/data/unencrypted/magisk_modules` and symlink back on FBE so you can manage module from Recovery.
@@ -29,7 +24,7 @@
 - [MagiskHide] Introduce MagiskHide WhiteList mode to hide Magisk from all apps except apps that have been previously granted root access from Magisk
 - [Manager] Show all supported languages in Language settings for Chinese ROM
 - [Modules] Support systemless deleting files or folders for modules. [Learn more about it...](https://huskydg.github.io/blog/delete-file-and-folder-by-magisk-module)
-- [General] Introduce Anti Zygote loop feature to automatically boot into Core-only mode if zygote fails to start for many times (bootloop)
+- [General] Introduce Anti Zygote loop feature to automatically boot into Core-only mode if zygote fails to start for many times (aka. bootloop)
 
 ### About MagiskHide WhiteList
 
@@ -37,11 +32,11 @@ After WhiteList is enabled, Magisk will be hidden from all apps by default and o
 
 Temporarily turn off MagiskHide WhiteList if you want to grant root access to new apps
 
-MagiskHide WhiteList has significant performance and memory consumption issue and might break some modules that require app to read (overlay module, systemize app, ...) and system performance might be dropped. Only use WhiteList if necessary
+MagiskHide WhiteList has significant performance and memory consumption issue and might break some modules that require app to read (overlay module, systemize app, ...). Only use WhiteList if necessary
 
-### About Zygisk
+### About Zygisk 💀
 
-[Read here to learn more about Zygisk...](https://huskydg.github.io/blog/zygisk-can-be-detected-very-easily)
+Zygisk is detectable and does not have hiding itself method like RiruHide. In additional, there are no hiding module that actually work, please don't enable Zygisk if unnecessary. [Read here to learn more about Zygisk...](https://huskydg.github.io/blog/zygisk-can-be-detected-very-easily)
 
 ## Magisk (9183a0a6) (25101)
 
