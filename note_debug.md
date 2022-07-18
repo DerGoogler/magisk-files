@@ -5,7 +5,7 @@
 ### What is new?
 
 - Update script for Magisk installation to system partition
-- Canary or Debug build now will tell you to update if version name is mismated
+- Canary or Debug build now will tell you to update if version name is mismatched
 
 
 ### Diff from official
