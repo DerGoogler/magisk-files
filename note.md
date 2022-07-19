@@ -1,4 +1,4 @@
-## Magisk f7e9d7fe-delta by HuskyDG
+## Magisk 259253eb-delta by HuskyDG
 
 ### What is new?
 
