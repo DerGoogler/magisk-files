@@ -1,10 +1,11 @@
-## Magisk 8c17f54d-delta DEBUG by HuskyDG
+## Magisk f7e9d7fe-delta DEBUG by HuskyDG
 
 > The Debug version has a more detailed log than the Canary version
 
 ### What is new?
 
-- Do not load custom `sepolicy.rule` of modules in Core-only mode
+- Add f2fs tuning for unencrypted devices
+- Lock `sys.oem_unlock_allowed` to `0` and `init.svc.adbd` to `stopped`
 
 
 ### Diff from official
@@ -25,6 +26,8 @@
 - [Manager] Show all supported languages in Language settings for Chinese ROM
 - [Modules] Support systemless deleting files or folders for modules. [Learn more about it...](https://huskydg.github.io/blog/delete-file-and-folder-by-magisk-module)
 - [General] Introduce Anti Zygote loop feature to automatically boot into Core-only mode if zygote fails to start for many times (aka. bootloop)
+- [General] Add f2fs tuning for unencrypted devices
+- [General] Lock `sys.oem_unlock_allowed` to `0` and `init.svc.adbd` to `stopped`
 
 ### About MagiskHide WhiteList
 
@@ -38,10 +41,7 @@ MagiskHide WhiteList has significant performance and memory consumption issue an
 
 Zygisk is detectable and does not have hiding itself method like RiruHide. In additional, there are no hiding module that actually work, please don't enable Zygisk if unnecessary. [Read here to learn more about Zygisk...](https://huskydg.github.io/blog/zygisk-can-be-detected-very-easily)
 
-## Magisk (9183a0a6) (25101)
+## Magisk (f42c089b) (25101) changes summary
 
-- Sync to public release
-
-## Diffs to v25.1
-
-- None
+- Fix booting into recovery with Android 13 GKI kernels
+- Fix missing `/dev` and `/data` in stub ramdisk
