@@ -1,4 +1,4 @@
-## Magisk f813bfd4-delta by HuskyDG
+## Magisk 95846c94-delta by HuskyDG
 
 ### What is new?
 

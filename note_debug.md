@@ -1,4 +1,4 @@
-## Magisk f813bfd4-delta DEBUG by HuskyDG
+## Magisk 95846c94-delta DEBUG by HuskyDG
 
 > The Debug version has a more detailed log than the Canary version
 
