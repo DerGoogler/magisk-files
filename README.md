@@ -40,13 +40,13 @@ Yet another crazy custom Magisk by HuskyDG, is always synchronized with official
 #### Canary
 
 - [Download app](https://huskydg.github.io/magisk-files/app-release.apk)
-- [Source code](https://huskydg.github.io/magisk-files/source-code.zip)
+- [Source code](https://github.com/topjohnwu/Magisk/archive/f813bfd4.zip)
 - [Changelog](https://github.com/HuskyDG/magisk-files/blob/main/note.md)
 
 #### Debug
 
 - [Download app](https://huskydg.github.io/magisk-files/app-debug.apk)
-- [Source code](https://huskydg.github.io/magisk-files/source-code_debug.zip)
+- [Source code](https://github.com/topjohnwu/Magisk/archive/f813bfd4.zip)
 - [Changelog](https://github.com/HuskyDG/magisk-files/blob/main/note_debug.md)
 
 ## FAQ

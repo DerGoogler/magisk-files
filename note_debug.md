@@ -1,11 +1,10 @@
-## Magisk 259253eb-delta DEBUG by HuskyDG
+## Magisk f813bfd4-delta DEBUG by HuskyDG
 
 > The Debug version has a more detailed log than the Canary version
 
 ### What is new?
 
-- Add f2fs tuning for unencrypted devices
-- Lock `sys.oem_unlock_allowed` to `0` and `init.svc.adbd` to `stopped`
+- Bump version code to `25102`
 
 
 ### Diff from official
@@ -41,7 +40,16 @@ MagiskHide WhiteList has significant performance and memory consumption issue an
 
 Zygisk is detectable and does not have hiding itself method like RiruHide. In additional, there are no hiding module that actually work, please don't enable Zygisk if unnecessary. [Read here to learn more about Zygisk...](https://huskydg.github.io/blog/zygisk-can-be-detected-very-easily)
 
-## Magisk (f42c089b) (25101) changes summary
+## Magisk (f42c089b) (25102)
 
-- Fix booting into recovery with Android 13 GKI kernels
-- Fix missing `/dev` and `/data` in stub ramdisk
+- [MagiskInit] Fix a potential issue when stub cpio is used
+- [MagiskInit] Fix reboot to recovery when stub cpio is used
+- [General] Better data encryption detection
+- [General] Move the whole logging infrastructure into Rust
+
+## Diffs to v25.1
+
+- [MagiskInit] Fix a potential issue when stub cpio is used
+- [MagiskInit] Fix reboot to recovery when stub cpio is used
+- [General] Better data encryption detection
+- [General] Move the whole logging infrastructure into Rust
