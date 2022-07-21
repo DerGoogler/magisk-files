@@ -1,8 +1,8 @@
-## Magisk 95846c94-delta by HuskyDG
+## Magisk d2f6ccbd-delta by HuskyDG
 
 ### What is new?
 
-- Bump version code to `25102`
+- Bump version code to `25201`
 
 ### Diff from official
 
@@ -37,16 +37,10 @@ MagiskHide WhiteList has significant performance and memory consumption issue an
 
 Zygisk is detectable and does not have hiding itself method like RiruHide. In additional, there are no hiding module that actually work, please don't enable Zygisk if unnecessary. [Read here to learn more about Zygisk...](https://huskydg.github.io/blog/zygisk-can-be-detected-very-easily)
 
-## Magisk (f42c089b) (25102)
+## Magisk (9b61bdfc) (25201)
 
-- [MagiskInit] Fix a potential issue when stub cpio is used
-- [MagiskInit] Fix reboot to recovery when stub cpio is used
-- [General] Better data encryption detection
-- [General] Move the whole logging infrastructure into Rust
+- Sync to public release
 
-## Diffs to v25.1
+## Diffs to v25.2
 
-- [MagiskInit] Fix a potential issue when stub cpio is used
-- [MagiskInit] Fix reboot to recovery when stub cpio is used
-- [General] Better data encryption detection
-- [General] Move the whole logging infrastructure into Rust
+None

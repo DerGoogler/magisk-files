@@ -1,6 +1,6 @@
-## Magisk v25.1-delta-3 by HuskyDG
+## Magisk v25.2-delta by HuskyDG
 
-> Synchronized with Magisk 8c17f54d-delta
+> Synchronized with Magisk v25.2
 
 ### Diff from official
 
@@ -33,11 +33,14 @@ MagiskHide WhiteList has significant performance and memory consumption issue an
 
 Zygisk is detectable and does not have hiding itself method like RiruHide. In additional, there are no hiding module that actually work, please don't enable Zygisk if unnecessary. [Read here to learn more about Zygisk...](https://huskydg.github.io/blog/zygisk-can-be-detected-very-easily)
 
-## Magisk v25.1 Official changes
+## 2022.7.20 Magisk v25.2
 
-- [MagiskBoot] Fix ramdisk backup being incorrectly skipped
-- [MagiskBoot] Add new feature to detect unsupported dtb and abort during installation
-- [Zygisk] Change binary hijack paths
-- [App] Fix incorrect recovery mode detection and installation
-- [MagiskInit] Fix config not properly exported in legacy SAR devices
-- [General] Enforce the Magisk app to always match or be newer than magiskd
+Maintenance release fixing various issues.
+
+- [MagiskInit] Fix a potential issue when stub cpio is used
+- [MagiskInit] Fix reboot to recovery when stub cpio is used
+- [MagiskInit] Fix sepolicy.rules symlink for rootfs devices
+- [General] Better data encryption detection
+- [General] Move the whole logging infrastructure into Rust
+
+### Full Changelog: [here](https://topjohnwu.github.io/Magisk/changes.html)

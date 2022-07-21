@@ -22,8 +22,8 @@ Yet another crazy custom Magisk by HuskyDG, is always synchronized with official
 
 #### Stable
 
-- [Magisk 25.1-delta-3](https://huskydg.github.io/download/magisk/25.1-delta-3.apk)
-- [Source code](https://huskydg.github.io/download/magisk/25.1-delta-3.zip)
+- [Magisk 25.2-deta](https://huskydg.github.io/download/magisk/25.2-delta.apk)
+- [Source code](https://huskydg.github.io/download/magisk/25.2-delta.zip)
 - [Changelog](https://github.com/HuskyDG/magisk-files/blob/main/note_stable.md)
 
 #### Beta
@@ -38,13 +38,13 @@ Yet another crazy custom Magisk by HuskyDG, is always synchronized with official
 #### Canary
 
 - [Download app](https://huskydg.github.io/magisk-files/app-release.apk)
-- [Source code](https://github.com/topjohnwu/Magisk/archive/95846c94.zip)
+- [Source code](https://github.com/topjohnwu/Magisk/archive/d2f6ccbd.zip)
 - [Changelog](https://github.com/HuskyDG/magisk-files/blob/main/note.md)
 
 #### Debug
 
 - [Download app](https://huskydg.github.io/magisk-files/app-debug.apk)
-- [Source code](https://github.com/topjohnwu/Magisk/archive/95846c94.zip)
+- [Source code](https://github.com/topjohnwu/Magisk/archive/d2f6ccbd.zip)
 - [Changelog](https://github.com/HuskyDG/magisk-files/blob/main/note_debug.md)
 
 ## FAQ
